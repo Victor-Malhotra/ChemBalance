@@ -5,7 +5,13 @@
     /* outline: 1px solid magenta; */
 }
 
+html{
+    zoom: 99%;
+}
+
 body {
+    background: black;
+    color: white;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -29,8 +35,9 @@ body {
 
 .element {
     background: white;
+    color: black;
     border: 1px solid #aaa;
-    max-width: 46px;
+    max-width: 2.875rem;
     padding: 0.1em;
     font-family: "Helvetica";
     transition: transform cubic-bezier(0.075, 0.82, 0.165, 1) 250ms;
@@ -40,7 +47,7 @@ body {
     transform: scale(1.35, 1.35);
     z-index: 1;
     cursor: pointer;
-    border: 1px solid rgb(45,190,252);
+    border: .063rem solid rgb(45,190,252);
   }  
 
 .atomicNumber {
@@ -52,7 +59,7 @@ body {
 }
 
 .atomicName {
-    font-size: 8px;
+    font-size: .5rem;
 }
 
 .atom-info  {
